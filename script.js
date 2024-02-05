@@ -1,7 +1,7 @@
 //your JS code here. If required.
   function updateClock() {
       const currentDate = new Date();
-      const dateTimeElement = document.getElementById("liveClock");
+      const dateTimeElement = document.getElementById("timer");
       dateTimeElement.textContent = `${currentDate.toLocaleString()}`;
     }
 
